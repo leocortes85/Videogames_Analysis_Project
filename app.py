@@ -14,6 +14,7 @@ from functions import (
     get_recommendations_by_name
 )
 
+
 # Definición de la función para mostrar el dashboard
 def dashboard():
     enlace_embebido = '''
@@ -25,7 +26,7 @@ def dashboard():
 st.title('Games Market Analysis')
 
 # Selección de la función que el usuario desea usar
-st.sidebar.title('Funciones')
+st.sidebar.title('Sinergy Data Solutions')
 option = st.sidebar.selectbox(
     'Selecciona una función:',
     [
